@@ -1,7 +1,8 @@
 3.0.6.dev0 (unreleased)
 =======================
 
-*
+* Respect ``python_files`` in assertion rewriting (`#2121`_). Thanks to
+  `@nip3o`_ for the report and `@pelme`_ for the PR.
 
 * pytest no longer recognizes coroutine functions as yield tests (`#2129`_).
   Thanks to `@malinoff`_ for the PR.
