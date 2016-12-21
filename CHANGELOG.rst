@@ -1,9 +1,6 @@
 3.0.6.dev0 (unreleased)
 =======================
 
-* Respect ``python_files`` in assertion rewriting (`#2121`_). Thanks to
-  `@nip3o`_ for the report and `@pelme`_ for the PR.
-
 * pytest no longer recognizes coroutine functions as yield tests (`#2129`_).
   Thanks to `@malinoff`_ for the PR.
 
@@ -15,12 +12,17 @@
   subdirectories with ini configuration files now uses the correct ini file
   (`#2148`_).  Thanks `@pelme`_.
 
+* Respect ``python_files`` in assertion rewriting (`#2121`_). Thanks to
+  `@nip3o`_ for the report and `@pelme`_ for the PR.
+
 *
 
 .. _@lesteve: https://github.com/lesteve
 .. _@malinoff: https://github.com/malinoff
+.. _@nip3o: https://github.com/nip3o
 .. _@pelme: https://github.com/pelme
 
+.. _#2121: https://github.com/pytest-dev/pytest/issues/2121
 .. _#2129: https://github.com/pytest-dev/pytest/issues/2129
 .. _#2148: https://github.com/pytest-dev/pytest/issues/2148
 .. _#2150: https://github.com/pytest-dev/pytest/issues/2150
