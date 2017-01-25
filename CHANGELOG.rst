@@ -17,6 +17,8 @@
   Thanks to `@nicoddemus`_ for the report and `@RonnyPfannschmidt`_ for the PR.
 
 
+=======
+>>>>>>> issue2121
 * pytest no longer recognizes coroutine functions as yield tests (`#2129`_).
   Thanks to `@malinoff`_ for the PR.
 
@@ -41,16 +43,21 @@
 * Fail ``testdir.runpytest().assert_outcomes()`` explicitly if the pytest
   terminal output it relies on is missing. Thanks to `@eli-b`_ for the PR.
 
+* Respect ``python_files`` in assertion rewriting (`#2121`_). Thanks to
+  `@nip3o`_ for the report and `@pelme`_ for the PR.
 
 .. _@lesteve: https://github.com/lesteve
 .. _@malinoff: https://github.com/malinoff
+.. _@nip3o: https://github.com/nip3o
 .. _@pelme: https://github.com/pelme
 .. _@eli-b: https://github.com/eli-b
 
 .. _#2118: https://github.com/pytest-dev/pytest/issues/2118
-
 .. _#1989: https://github.com/pytest-dev/pytest/issues/1989
 .. _#1920: https://github.com/pytest-dev/pytest/issues/1920
+=======
+.. _#2121: https://github.com/pytest-dev/pytest/issues/2121
+>>>>>>> issue2121
 .. _#2129: https://github.com/pytest-dev/pytest/issues/2129
 .. _#2148: https://github.com/pytest-dev/pytest/issues/2148
 .. _#2150: https://github.com/pytest-dev/pytest/issues/2150
